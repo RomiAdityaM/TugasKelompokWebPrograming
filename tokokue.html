@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+<title>Tugas kelompok 4</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Karma">
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Karma", sans-serif}
+.w3-bar-block .w3-bar-item {padding:20px}
+</style>
+<body>
+
+
+<nav class="w3-sidebar w3-bar-block w3-card w3-top w3-xlarge w3-animate-left" style="display:none;z-index:2;width:40%;min-width:300px" id="mySidebar">
+  <a href="javascript:void(0)" onclick="w3_close()"
+  class="w3-bar-item w3-button">Tutup Menu</a>
+  <a href="#Makanan" onclick="w3_close()" class="w3-bar-item w3-button">Makanan</a>
+  <a href="#Tentang" onclick="w3_close()" class="w3-bar-item w3-button">Tentang</a>
+</nav>
+
+
+<div class="w3-top">
+  <div class="w3-white w3-xlarge" style="max-width:1200px;margin:auto">
+    <div class="w3-button w3-padding-16 w3-left" onclick="w3_open()">☰</div>
+    <div class="w3-right w3-padding-16">Kelompok 3</div>
+    <div class="w3-center w3-padding-16">Toko Kue</div>
+  </div>
+</div>
+  
+<!-- !PAGE CONTENT! -->
+<div class="w3-main w3-content w3-padding" style="max-width:1200px;margin-top:100px">
+
+  <!-- First Photo Grid-->
+  <div class="w3-row-padding w3-padding-16 w3-center" id="food">
+    <div class="w3-quarter">
+      <img src="https://asset.kompas.com/crops/eOV_amH0dauqoG5XNIUHGHggELk=/78x52:702x468/750x500/data/photo/2020/10/05/5f7b07844f783.jpg" alt="Kue Lupis" style="width:100%">
+      <h3>Kue Lumpur</h3>
+      <p>lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+    </div>
+    <div class="w3-quarter">
+      <img src="https://1.bp.blogspot.com/-cYC2zBoEg5A/YAE66bM01JI/AAAAAAAB-tI/uFLZrAXnS80ZSlY_dlmfZ0KuyzB2kO1agCLcBGAsYHQ/s1280/Resep%2BKue%2BCubit%2B%25282%2529.jpg" alt="Kue Cubit" style="width:100%">
+      <h3>Kue Cubit</h3>
+      <p>Olorem lorem lorem lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+    </div>
+    <div class="w3-quarter">
+      <img src="https://cdn1-production-images-kly.akamaized.net/UwOJwzeHZREYterK_wDKBtBC7Lk=/640x853/smart/filters:quality(75):strip_icc():format(jpeg)/kly-media-production/medias/3272367/original/061611100_1603169722-Resep-KueSusuVla-Vanila-Susu.jpg" alt="Kue sus" style="width:100%">
+      <h3>Kue Sus</h3>
+      <p>Lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+      <p>lainnya?</p>
+    </div>
+    <div class="w3-quarter">
+      <img src="https://img.inews.co.id/media/822/files/inews_new/2020/06/04/IMG_04062020_130608__822_x_430_piksel_.jpg" alt="Cheesecake" style="width:100%">
+      <h3>Cheesecake</h3>
+      <p>Lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+    </div>
+  </div>
+  
+  <!-- Second Photo Grid-->
+  <div class="w3-row-padding w3-padding-16 w3-center">
+    <div class="w3-quarter">
+      <img src="https://cdn.idntimes.com/content-images/community/2020/08/fromandroid-16f8519f5ecc070f54ce74def9b70243.jpg" alt="Onde-onde" style="width:100%">
+      <h3>Onde-onde</h3>
+      <p>Lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+    </div>
+    <div class="w3-quarter">
+      <img src="https://cdn.idntimes.com/content-images/community/2020/08/fromandroid-300fe502e6091dd903d159e63305a80b.jpg" alt="Apem" style="width:100%">
+      <h3>Apem</h3>
+      <p>lorem lorem lorem lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+    </div>
+    <div class="w3-quarter">
+      <img src="https://cdn.idntimes.com/content-images/community/2020/08/fromandroid-03e412d9825f9d4d70db38fa4da048ab.jpg" alt="Klepon" style="width:100%">
+      <h3>Klepon, A Real Classic</h3>
+      <p>lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+    </div>
+    <div class="w3-quarter">
+      <img src="https://cdn.idntimes.com/content-images/community/2020/08/fromandroid-8a47be1d996f637bade570137e73e5f0.jpg" alt="Cucur" style="width:100%">
+      <h3>Cucur</h3>
+      <p>Lorem lorem lorem lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+    </div>
+  </div>
+
+  <!-- Pagination -->
+  <div class="w3-center w3-padding-32">
+    <div class="w3-bar">
+      <a href="#" class="w3-bar-item w3-button w3-hover-black">«</a>
+      <a href="#" class="w3-bar-item w3-black w3-button">1</a>
+      <a href="#" class="w3-bar-item w3-button w3-hover-black">2</a>
+      <a href="#" class="w3-bar-item w3-button w3-hover-black">3</a>
+      <a href="#" class="w3-bar-item w3-button w3-hover-black">4</a>
+      <a href="#" class="w3-bar-item w3-button w3-hover-black">»</a>
+    </div>
+  </div>
+  
+  <hr id="Tentang">
+
+  <!-- About Section -->
+  <div class="w3-container w3-padding-32 w3-center">  
+    <h3>Kelompok 3</h3><br>
+    <img src="https://safebooru.org//images/3009/6ef0f8cf3f70430122aa6e2edd48222cb877a582.gif?3133297" alt="Me" class="w3-image" style="display:block;margin:auto" width="800" height="533">
+    <div class="w3-padding-32">
+      <h4><b>Kelompok 3</b></h4>
+      <h6><i>Romi Aditya Maulana. Andi Setyo Utomo, Maharani Putri Dwitono, Anita zahra Angraeni dan Aliva Budipratiwi</i></h6>
+      <p>JWebsite ini dibuat untuk keperluan Edukasi semata.</p>
+    </div>
+  </div>
+  <hr>
+  
+  <!-- Footer -->
+  <footer class="w3-row-padding w3-padding-32">
+    <div class="w3-third">
+      <h3>FOOTER</h3>
+      <p>PWebsite ini dibuat untuk keperluan Edukasi semata.</p>
+      <p>Powered by <a href="https://www.google.com/?&bih=696&biw=1326&client=opera&hs=YW7&safe=strict&hl=id" target="_blank">w3.css</a></p>
+    </div>
+  
+    <div class="w3-third">
+      <h3>BLOG POSTS</h3>
+      <ul class="w3-ul w3-hoverable">
+        <li class="w3-padding-16">
+          <img src="https://safebooru.org//samples/3367/sample_ae7ea316f482a00fd2e4412ec5cb45b85d441fb2.jpg?3501326" class="w3-left w3-margin-right" style="width:50px">
+          <span class="w3-large">Dapur</span><br>
+          <span>Sed mattis nunc</span>
+        </li>
+        <li class="w3-padding-16">
+          <img src="https://safebooru.org//images/3009/6ef0f8cf3f70430122aa6e2edd48222cb877a582.gif?3133297" class="w3-left w3-margin-right" style="width:50px">
+          <span class="w3-large">Toko kue</span><br>
+          <span>Praes tinci sed</span>
+        </li> 
+      </ul>
+    </div>
+
+    <div class="w3-third w3-serif">
+      <h3>POPULAR TAGS</h3>
+      <p>
+        <span class="w3-tag w3-black w3-margin-bottom">Travel</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">New York</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Dinner</span>
+        <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Salmon</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">France</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Drinks</span>
+        <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Ideas</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Flavors</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Cuisine</span>
+        <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Chicken</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Dressing</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Fried</span>
+        <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Fish</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Duck</span>
+      </p>
+    </div>
+  </footer>
+
+<!-- End page content -->
+</div>
+
+<script>
+// Script to open and close sidebar
+function w3_open() {
+  document.getElementById("mySidebar").style.display = "block";
+}
+ 
+function w3_close() {
+  document.getElementById("mySidebar").style.display = "none";
+}
+</script>
+
+</body>
+</html>
